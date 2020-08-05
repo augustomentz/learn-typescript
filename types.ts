@@ -56,5 +56,5 @@ let msg = 'Defined message'
 msg = 'New message'
 
 window.addEventListener('click', (e) => {
-  console.log(e.target);
+  console.log(e.target)
 })

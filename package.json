@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/augustomentz/learn-typescript.git",
   "author": "Augusto Mentz",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
