@@ -30,7 +30,7 @@ enum Colors {
 
 // Any (everything) IS NOT COOL
 let thing: any
-thing = true
+thing = true // 2, 'true'
 
 // Void
 const logger = (): void => {
@@ -50,3 +50,11 @@ let cart: object
 cart = {
   key: 'foo'
 }
+
+// Type Inference
+let msg = 'Defined message'
+msg = 'New message'
+
+window.addEventListener('click', (e) => {
+  console.log(e.target);
+})
