@@ -38,7 +38,7 @@ class CreateGame implements Game {
   description: string;
   genre: string;
 
-  constructor(t: string, d: string, g: string;) {
+  constructor(t: string, d: string, g: string) {
     this.title = t;
     this.description = d;
     this.genre = g;
